@@ -73,5 +73,6 @@ test.describe("Smoke test", () => {
     await expect(
       page.locator('//*[@data-qa-type="article-tag"]')
     ).toContainText(tags);
+    
   });
 });
