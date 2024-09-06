@@ -74,4 +74,5 @@ test.describe("Smoke test", () => {
       page.locator('//*[@data-qa-type="article-tag"]')
     ).toContainText(tags);
   });
+  
 });
